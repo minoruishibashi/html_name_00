@@ -1,0 +1,325 @@
+ew/* ここから下に記載していく */
+@charset "utf-8";
+/* フォント、色　*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #222222;
+    font-size: 1.6rem;
+}
+
+.navi{
+    font-size: 21px;
+}
+
+h1{
+    color: #ffd61a;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.site-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explain{
+    color: #222222;
+}
+
+.explain{
+    font-size: 16px;
+}
+#center{
+    text-align: center;
+}
+
+.jp-title{
+    font-size: 18px;
+    margin-bottom: 60px;
+    line-height: 2;
+}
+
+.jp-title{
+    color: #222222;
+}
+
+/* 画像　*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+/* 幅、文字位置　*/
+.profile-wrapper{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* 幅 */
+.profile__title{
+    margin: 0 0 30px;
+    line-height: 2;
+    text-align: justify;
+    text-align: center;
+}
+
+.about-explain{
+    margin: 0 0 60px;
+    line-height: 2;
+}
+.omoi{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+.omoi2{
+    margin: 0 0 80px;
+    line-height: 2;
+}
+.about_pic{
+    margin: 0 0 60px;
+    line-height: 2;
+}
+.site-title{
+    margin: 0 0 30px;
+    line-height: 2;
+    text-align: left;
+}
+.profile-wrapper{
+    margin: 0 0 60px;
+    line-height: 2;
+}
+.pizza{
+    margin: 0 0 30px;
+    line-height: 2;
+}
+h3{
+    margin: 0 0 24px;
+    line-height: 2;
+}
+#NEWS{
+    margin: 0 0 60px;
+    line-height: 2;
+}
+.more{
+    margin: 0 0 120px;
+    line-height: 2;
+}
+.course-explain{
+    line-height: 2;
+    text-align: left;
+    width: 480px;
+}
+.course2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.news-explain{
+    line-height: 2;
+}
+.map{
+    margin: 0 auto;
+    width: 1106px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+/* ボタン　More */
+.btn{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    text-align: center;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* 横並び　*/
+.image_nav{  
+    display:flex;
+}
+.image_navietem{
+    width: 16.666%;
+}
+
+.about_pic{
+    display:flex;
+}
+.about_picitem{
+    width: 25%;
+    display:flex;
+}
+
+.works__newslist{
+    display:flex;
+}
+.works__newslistitem{
+    width: 33.333%;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 121px;
+    width: 100%
+}
+.nav_list{
+    display: flex;
+}
+.nav_item{
+    margin: 0 0 0 48px;
+}
+
+/* Contact */
+.form_wrapper{
+    width: 560px;
+    margin: auto;
+}
+.form_inter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+}
+.form_title{
+    width: 152px;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.form_item{
+    width: 388px;
+    margin: 0 0 16px;
+    font-size: 18px;
+}
+.contact{
+    padding: 80px 0 70px;
+    width: 100%;
+}
+.contact_explain{
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.form_parts{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 0;
+    border: solid 1px #a0a0a0;
+}
+input[type="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+/* ボタン　送信 */
+.btn_submit{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    text-align: center;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Hero image */
+.hero_image{
+    position: relative;
+}
+.hero_image__text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate3d(-50%,-40%,0);
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.hero_image__text2{
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform:translate3d(-50%,-50%,0);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+.footer{
+    background-color: #707070;
+    padding: 24px 0 0 24px;
+    text-align: center;
+}
+.copyrights{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* Flex box pizza  */
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.news-explain{
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.course-explain_honkaku{
+    display: flex;
+}
+.course-explain_detail{
+    margin: 50px 50px 120px;
+    width: 550px;
+}
+
+.course-explain_Hitsuyou{
+    display: flex;
+}
+.course-explain_detail2{
+    margin: 50px 0 120px;
+    width: 550px;
+    padding-left: 50px;
+}
+.course-explain_sotsugyo{
+    display: flex;
+}
+
+/* 表形式*/
+.profile__hyo{
+    display:flex;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+/* 画像横幅調整の悶絶 */
+.test_image{
+    width: 550px;
+}
